@@ -16,18 +16,11 @@ class CardScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.only(right: 8, left: 8),
         children: const[
-          CustomCardType1(),
+          Card01Lab(),
           SizedBox(height: 10),
-          CustomCardType1(),
+          Card02Lab(),
           SizedBox(height: 10),
-          CustomCardType1(),
-          /*SizedBox(height: 10),
-          CustomCardType2(),
-          SizedBox(height: 10),
-          CustomCardType3(
-            imageURL: 'https://acortar.link/IdIChC',
-            descripcion: 'Gohan Reloaded',
-            )*/
+          Card03Lab(),
         ],
       ),    
     );
