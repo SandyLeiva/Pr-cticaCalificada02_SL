@@ -16,18 +16,14 @@ class Card03Lab extends StatelessWidget {
       elevation: 10,
       shadowColor: AppTheme.primary,
       child: Column( 
-        mainAxisSize: MainAxisSize.min,             
         children: [
-            const ListTile(                  
-              leading: Padding(
-                padding: EdgeInsets.only(right: 30),
-                child: Icon(Icons.car_crash, size: 60, color: AppTheme.primary,),
-              ),
-              title: Text('Titulo de la tarjeta', style: TextStyle(fontSize: 21) ),
-              subtitle: Text('Este es un subtitulo de la tarjeta creada, para poder probarla en Flutter' , style: TextStyle(fontSize: 17),),
+            const ListTile(               
+              leading: Icon(Icons.car_crash, size: 60, color: AppTheme.primary),
+              title: Text('Titulo de la tarjeta', style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold) ),
+              subtitle: Text('Este es un texto de ejemplo para poder mostrar una mejor disposición del texto en una tarjeta' , style: TextStyle(fontSize: 17),),
             ),
           Padding(
-            padding: const EdgeInsets.only(right: 5),
+            padding: const EdgeInsets.only(left: 15),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

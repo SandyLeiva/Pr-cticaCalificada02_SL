@@ -20,7 +20,7 @@ class Card01Lab extends StatelessWidget {
             const ListTile(                  
               leading: Padding(
                 padding: EdgeInsets.only(right: 25),
-                child: Icon(Icons.car_crash, size: 30,),
+                child: Icon(Icons.car_crash, size: 30,  color:  Color.fromARGB(255, 112, 112, 112),),
               ),
               title: Text('Titulo de la tarjeta', style: TextStyle(fontSize: 21) ),
               subtitle: Text('Este es un subtitulo de la tarjeta creada, para poder probarla en Flutter' , style: TextStyle(fontSize: 17),),
